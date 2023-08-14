@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="zxx">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+    <title>Contact Miraaz Thai Spa</title>
+    <link rel="shortcut icon" href="img/logo with background.png" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Display&family=Outfit:wght@300;400&display=swap"
+    />
+    <link rel="stylesheet" href="css/plugins.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script
+      src="https://kit.fontawesome.com/8de71d6583.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <style>
+    .popup {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5);
+      justify-content: center;
+      align-items: center;
+    }
+
+    .form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+    .popup-content {
+      background-color: white;
+      padding: 20px;
+      border-radius: 5px;
+      text-align: center;
+    }
+
+    .popup button {
+      padding: 10px 20px;
+      background-color:#c5812a;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  </style>
+  <body>
+    <!-- Progress scroll totop -->
+    <div class="progress-wrap cursor-pointer">
+      <svg
+        class="progress-circle svg-content"
+        width="100%"
+        height="100%"
+        viewBox="-1 -1 102 102"
+      >
+        <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+      </svg>
+    </div>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <!-- Logo -->
+        <div class="logo-wrapper">
+          <a href="index.html">
+            <img src="img/logo/Mirajlogo.png" class="logo-img" alt="" />
+          </a>
+        </div>
+        <!-- Button -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"><i class="ti-menu"></i></span> </button>
+        <!-- Button -->
+        <div class="collapse navbar-collapse" id="navbar">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="services.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pricing.html">Packages</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="team.html">Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Header Banner -->
+    <div
+      class="banner-header section-padding valign bg-img bg-fixed bg-position-bottom"
+      data-overlay-dark="0"
+      data-background="img/about/aboutspa4.jpg"
+      loading="lazy"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 caption text-center">
+            <h4>Get in touch</h4>
+            <h1>Contact Us</h1>
+          </div>
+        </div>
+      </div>
+      <!-- button scroll -->
+      <a href="#" data-scroll-nav="1" class="mouse smoothscroll">
+        <span class="mouse-icon"> <span class="mouse-wheel"></span> </span>
+      </a>
+    </div>
+    <!-- Contact -->
+    <section class="contact section-padding" data-scroll-index="1">
+      <div class="container">
+        <div class="row mb-30">
+          <div class="col-md-3">
+            <div class="sub-title border-bot-light">Location</div>
+          </div>
+          <div class="col-md-9">
+            <div class="section-title">Contact Us</div>
+            <p class="mb-30">Calmness is a call away. Reach us for serenity</p>
+            <div class="row">
+              <div class="col-md-4">
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="reservations mb-15">
+                      <div class="icon">
+                        <span class="flaticon-call"></span>
+                      </div>
+                      <div class="text">
+                        <p>Reservation</p>
+                        <a href="tel:+91 7249869321">+91 7249869321</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                    <div class="reservations mb-15">
+                      <div class="icon">
+                        <span class="flaticon-envelope"></span>
+                      </div>
+                      <div class="text">
+                        <p>Email Info</p>
+                        <a href="mailto:miraazthaispa@gmail.com"
+                          >miraazthaispa@gmail.com</a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-12">
+                    <div class="reservations mb-15">
+                      <div class="icon">
+                        <span class="flaticon-location-pin"></span>
+                      </div>
+                      <div class="text">
+                        <p>Address</p>
+                        Miraaz Thai spa, (Shop No- 202, 2ndfloor,<br />
+                        Amanora Park Town,
+                        <br />Hadapsar-Pune)
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-7 offset-md-1">
+                <div class="row">
+                  <div class="col-md-12">
+                    <h3>Get in touch</h3>
+                    <form
+                      method="post"
+                      id="appointment-form"
+                      class="contact__form"
+                    >
+                      <div class="row">
+                        <div class="col-md-6 form-group">
+                          <input
+                            name="name"
+                            type="text"
+                            placeholder="Your Name *"
+                            required
+                          />
+                        </div>
+                        <div class="col-md-6 form-group">
+                          <input
+                            name="email"
+                            type="email"
+                            placeholder="Your Email *"
+                            required
+                          />
+                        </div>
+                        <div class="col-md-6 form-group">
+                          <input
+                            name="phone"
+                            type="text"
+                            placeholder="Your Number *"
+                            required
+                          />
+                        </div>
+                        <div class="col-md-6 form-group">
+                          <input
+                            name="subject"
+                            type="text"
+                            placeholder="Subject *"
+                            required
+                          />
+                        </div>
+                        <div class="col-md-12 form-group">
+                        <textarea
+                            name="message"
+                            id="message"
+                            cols="30"
+                            rows="4"
+                            placeholder="Message *"
+                            required
+                        ></textarea>
+                        </div>
+                        <div class="col-md-12 mt-10">
+                        <button type="submit" class="butn-dark2">
+                            <span>Send Message</span>
+                        </button>
+                        </div>
+                        <div id="success-popup" class="popup">
+                        <div class="popup-content">
+                            <p>Appointment submitted successfully!</p>
+                            <button id="close-popup">Close</button>
+                        </div>
+                        </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Map -->
+    <section class="map">
+      <div class="full-width">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3783.2103605423786!2d73.93490141095444!3d18.519393669137127!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c378b7f01e01%3A0x34bf072bba52577a!2sMiraaz%20Thai%20Spa!5e0!3m2!1sen!2sin!4v1691956885481!5m2!1sen!2sin"
+          width="100%"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="top">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3 mb-30">
+              <div class="sub-title border-footer-light whte">Contact Us!</div>
+            </div>
+            <div class="col-md-4 offset-md-1">
+              <div class="item">
+                <h3>Get in touch</h3>
+                <p>
+                  Miraaz Thai spa, (Shop No- 202, 2ndfloor,<br />
+                  Amanora Park Town,
+                  <br />Hadapsar-Pune)
+                </p>
+                <div class="social mt-2">
+                  <a href="tel:+91 72498 69321"
+                    ><i class="fa-solid fa-phone"></i
+                  ></a>
+                  <a
+                    href="https://www.facebook.com/people/Miraaz-Thai-Spa/100094643781000/"
+                    target="_blank"
+                    ><i class="fa-brands fa-facebook"></i
+                  ></a>
+                  <a
+                    href="mailto:miraazthaispa@gmail.com"
+                    id="emailLink"
+                    target="_blank"
+                    ><i class="fa-solid fa-envelope"></i
+                  ></a>
+                  <a
+                    href="https://www.instagram.com/miraazthaispa/?igshid=ZDc4ODBmNjlmNQ%3D%3D"
+                    target="_blank"
+                    ><i class="fa-brands fa-instagram"></i
+                  ></a>
+                </div>
+              </div>
+            </div>
+            <!---Script---->
+            <script>
+              //Email-icon
+              var emailLink = document.getElementById("emailLink");
+              emailLink.addEventListener("click", function (event) {
+                event.preventDefault();
+                var emailAddress = "miraazthaispa@gmail.com";
+                var subject = "Email subject";
+                var body = "Email body";
+                var mailtoLink =
+                  "mailto:" +
+                  emailAddress +
+                  "?subject=" +
+                  encodeURIComponent(subject) +
+                  "&body=" +
+                  encodeURIComponent(body);
+                window.location.href = mailtoLink;
+              });
+            </script>
+            <!---Script------>
+            <div class="col-md-4">
+              <div class="item">
+                <h3>Quick Link</h3>
+                <ul class="footer-explore-list list-unstyled">
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="services.html">Services</a></li>
+                  <li><a href="pricing.html">Packages</a></li>
+                  <li><a href="team.html">Team</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <br />
+      <br />
+    </footer>
+    <!-- jQuery -->
+    <script src="js/script.js"></script>
+    <script src="js/jquery-3.6.3.min.js"></script>
+    <script src="js/jquery-migrate-3.0.0.min.js"></script>
+    <script src="js/modernizr-2.6.2.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/jquery.isotope.v3.0.2.js"></script>
+    <script src="js/pace.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scrollIt.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/jquery.magnific-popup.js"></script>
+    <script src="js/YouTubePopUp.js"></script>
+    <script src="js/select2.js"></script>
+    <script src="js/datepicker.js"></script>
+    <script src="js/smooth-scroll.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/custom.js"></script>
+  </body>
+</html>
