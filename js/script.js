@@ -1,20 +1,25 @@
 document.addEventListener("DOMContentLoaded", function() {
-    document.getElementById("appointment-form").addEventListener("submit", function(event) {
+    const form = document.getElementById('contact-form');
+    const successPopup = document.getElementById('success-popup');
+    const closePopupButton = document.getElementById('close-popup');
+    
+    form.addEventListener('submit', function (event) {
         event.preventDefault();
-        showPopup();
+    
+        // Perform form validation
+    
+        // Simulate sending the form data or submit the form
+        
+        // Show the success popup
+        successPopup.style.display = 'flex';
+    
+        // Reset the form fields
+        form.reset();
     });
     
-    document.getElementById("close-popup").addEventListener("click", function() {
-        closePopup();
+    closePopupButton.addEventListener('click', function () {
+        // Close the success popup
+        successPopup.style.display = 'none';
     });
-    
-    function showPopup() {
-        document.getElementById("success-popup").style.display = "flex";
-    }
-    
-    function closePopup() {
-        document.getElementById("success-popup").style.display = "none";
-    }
-    
 });
 
